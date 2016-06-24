@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script type="text/javascript">
+    var fio = prompt("Введите ФИО");
+
+    var n1 = fio.indexOf(" ");
+    var n2 = fio.lastIndexOf(" ");
+
+    var surname = fio.substr(0, n1-1);
+//    var name = fio.substring(n1, n2);
+    var secondname = fio.substr(n2);
+
+    alert(n1);
+    alert(n2);
+    document.writeln(secondname);
+    document.writeln(surname);
+//    document.writeln(name);
+
+
+
+
+
+</script>
+<body>
+
+</body>
+</html>

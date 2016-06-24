@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script type="text/javascript">
+    var arr = [];
+    var i = 0;
+    var sz = 0;
+        do{
+           var x =  prompt("введите последовательность чисел, 0 - последнее");
+            if(x != 0)
+            arr.push(x);
+            sz = sz + parseInt(x);
+            i++;
+        }
+        while(arr[i - 1] > 0);
+    alert(arr);
+    alert(sz / (i -1));
+</script>
+<body>
+
+</body>
+</html>
